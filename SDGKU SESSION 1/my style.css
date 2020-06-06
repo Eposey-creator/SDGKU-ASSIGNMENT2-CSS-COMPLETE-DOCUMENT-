@@ -1,0 +1,73 @@
+/*global*/
+body{
+    font-family: 'Kurale', serif;
+}
+
+p{
+    line-height: 2;
+    font-size: 24px;
+    margin-left:auto ;
+    margin-right: auto;
+
+}
+
+h1,h2,h3,h4{
+    text-align: center;
+}
+
+h1{
+    font-size: 35px;
+}
+
+h2{
+    font-size: 28px;
+}
+
+h3{
+    font-size: 24px;
+    color: rgb(196, 35, 69) 
+}
+
+/*header*/
+/* this header is for the very top of the website (software developer portion)*/
+header{
+    background-image: url(image\ 1.jpg);
+    color:rgba(12, 11, 0, 0.932);
+    height: 200px;
+    width: 100%;
+    text-align: center; 
+    font-size: 40PX;
+  }
+  .icon{
+    
+    /* remeber to always add  a display flex when aligning items*/
+    display: flex;
+    align-items: center; /* use for vertical alignment*/
+    justify-content:space-evenly; /*use for horizontal alignment*/
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 800px;
+    height: 100px;
+    background-color:turquoise;
+    border-radius: 50%;
+  }
+
+  
+ .icon i {
+     /* this section will adjust the actual icon"s size in color*/
+     font-size: 55px;
+     color:rgb(238, 116, 126);
+ }
+
+ main{
+     text-align:center ;
+ }
+
+ 
+  
+
+
+
+
+    
